@@ -1,0 +1,20 @@
+# Web server
+flask>=3.0.0
+
+# Speech
+vosk>=0.3.45
+pyttsx3>=2.90
+pyaudio>=0.2.13
+sounddevice>=0.4.6
+
+# Utilities
+numpy>=1.24.0
+
+# Optional: LLM fine-tuning (only needed if running finetune.py)
+# torch>=2.0.0
+# transformers>=4.35.0
+# peft>=0.6.0
+# datasets>=2.14.0
+# accelerate>=0.24.0
+# bitsandbytes>=0.41.0
+# sentencepiece>=0.1.99
